@@ -1,0 +1,64 @@
+html, body {
+    color:black;
+    font-family: 'Arial Black', sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c00;
+  }
+  
+  .logo {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .logo-title {
+    font-family: Impact, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: black;
+    text-shadow: 2px 2px 5px #f00, 0 0 10px #000;
+  }
+  
+  .highlight {
+    color:black;
+  }
+  
+  .logo-subtitle {
+    font-style: italic;
+    color: black;
+    font-size: 1rem;
+    margin-top: -10px;
+    margin-left: 50px;
+  }
+
+  .main-content {
+    flex: 1;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+  }
